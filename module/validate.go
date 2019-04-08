@@ -2,7 +2,7 @@ package module
 
 import (
 	pgs "github.com/lyft/protoc-gen-star"
-	"github.com/lyft/protoc-gen-validate/templates"
+	"github.com/wikiwong/protoc-gen-validate/templates"
 )
 
 const (

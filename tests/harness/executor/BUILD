@@ -8,7 +8,7 @@ go_library(
         "harness.go",
         "worker.go",
     ],
-    importpath = "github.com/lyft/protoc-gen-validate/tests/harness/executor",
+    importpath = "github.com/wikiwong/protoc-gen-validate/tests/harness/executor",
     visibility = ["//visibility:private"],
     deps = [
         "//tests/harness/cases:go",
@@ -32,6 +32,6 @@ go_binary(
         "//tests/harness/gogo/main:go-harness",
     ],
     embed = [":go_default_library"],
-    importpath = "github.com/lyft/protoc-gen-validate/tests/harness/executor",
+    importpath = "github.com/wikiwong/protoc-gen-validate/tests/harness/executor",
     visibility = ["//visibility:private"],
 )

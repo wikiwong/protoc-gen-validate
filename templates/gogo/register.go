@@ -3,7 +3,7 @@ package tpl
 import (
 	"text/template"
 
-	shared "github.com/lyft/protoc-gen-validate/templates/goshared"
+	shared "github.com/wikiwong/protoc-gen-validate/templates/goshared"
 )
 
 func Register(tpl *template.Template) {

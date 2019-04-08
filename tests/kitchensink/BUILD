@@ -60,7 +60,7 @@ proto_library(
 
 go_proto_library(
     name = "tests_kitchensink_go_proto",
-    importpath = "github.com/lyft/protoc-gen-validate/tests/kitchensink",
+    importpath = "github.com/wikiwong/protoc-gen-validate/tests/kitchensink",
     proto = ":tests_kitchensink_proto",
     visibility = ["//visibility:public"],
     deps = [
@@ -76,6 +76,6 @@ go_proto_library(
 go_library(
     name = "go_default_library",
     embed = [":tests_kitchensink_go_proto"],
-    importpath = "github.com/lyft/protoc-gen-validate/tests/kitchensink",
+    importpath = "github.com/wikiwong/protoc-gen-validate/tests/kitchensink",
     visibility = ["//visibility:public"],
 )

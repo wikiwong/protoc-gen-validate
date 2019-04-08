@@ -12,7 +12,7 @@ pgv_go_proto_library(
     srcs = [
         "embed.proto",
     ],
-    importpath = "github.com/lyft/protoc-gen-validate/tests/harness/cases/other_package/go",
+    importpath = "github.com/wikiwong/protoc-gen-validate/tests/harness/cases/other_package/go",
     rules_go_repo_only_for_internal_use = "",
 )
 
@@ -20,7 +20,7 @@ go_library(
     name = "gogo",
     srcs = glob(["gogo/*.go"]),
     visibility = ["//visibility:public"],
-    importpath = "github.com/lyft/protoc-gen-validate/tests/harness/cases/other_package/gogo",
+    importpath = "github.com/wikiwong/protoc-gen-validate/tests/harness/cases/other_package/gogo",
     deps = [
         "//tests/harness/gogo:go_default_library",
         "//validate:go_default_library",

@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/lyft/protoc-gen-star"
-	"github.com/lyft/protoc-gen-validate/module"
+	"github.com/wikiwong/protoc-gen-validate/module"
 )
 
 func main() {

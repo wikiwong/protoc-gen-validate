@@ -10,7 +10,7 @@ import (
 	"github.com/golang/protobuf/ptypes/duration"
 	"github.com/golang/protobuf/ptypes/timestamp"
 	pgs "github.com/lyft/protoc-gen-star"
-	"github.com/lyft/protoc-gen-validate/templates/shared"
+	"github.com/wikiwong/protoc-gen-validate/templates/shared"
 )
 
 func Register(tpl *template.Template) {

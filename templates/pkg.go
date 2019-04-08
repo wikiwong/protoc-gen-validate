@@ -3,10 +3,10 @@ package templates
 import (
 	"text/template"
 
-	cctpl "github.com/lyft/protoc-gen-validate/templates/cc"
-	gotpl "github.com/lyft/protoc-gen-validate/templates/go"
-	gogotpl "github.com/lyft/protoc-gen-validate/templates/gogo"
-	"github.com/lyft/protoc-gen-validate/templates/shared"
+	cctpl "github.com/wikiwong/protoc-gen-validate/templates/cc"
+	gotpl "github.com/wikiwong/protoc-gen-validate/templates/go"
+	gogotpl "github.com/wikiwong/protoc-gen-validate/templates/gogo"
+	"github.com/wikiwong/protoc-gen-validate/templates/shared"
 )
 
 func makeTemplate(lang string, register_fn func(*template.Template)) *template.Template {

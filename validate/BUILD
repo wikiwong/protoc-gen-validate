@@ -43,7 +43,7 @@ go_proto_library(
         "@com_github_golang_protobuf//ptypes/timestamp:go_default_library",
         "@com_github_golang_protobuf//protoc-gen-go/descriptor:go_default_library",
     ],
-    importpath = "github.com/lyft/protoc-gen-validate/validate",
+    importpath = "github.com/wikiwong/protoc-gen-validate/validate",
     visibility = ["//visibility:public"],
 )
 

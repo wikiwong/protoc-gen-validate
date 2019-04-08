@@ -10,7 +10,7 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	harness "github.com/lyft/protoc-gen-validate/tests/harness/go"
+	harness "github.com/wikiwong/protoc-gen-validate/tests/harness/go"
 	"golang.org/x/net/context"
 )
 
